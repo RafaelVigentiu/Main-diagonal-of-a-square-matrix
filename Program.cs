@@ -12,6 +12,8 @@
             }
 
             //Print diagonal elements.
+            //i == j ---> j == i -----> i == i
+            //So we cand write matrix[i, i].
             for (int i = 0; i < matrix.GetLength(0); i++) {
                 Console.WriteLine(matrix[i, i]);
             }
